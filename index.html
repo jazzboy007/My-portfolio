@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassan-Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    
+
+
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Hassan's Portfolio</div>
+        <div class="right">
+          <ul>
+             <li><a href="javascript:void(0);">Home</a></li>
+            <li><a href="javascript:void(0);" onclick="showAbout(event)">About Me</a></li>
+            <li><a href="javascript:void(0);" id ="Projects" >My Projects</a></li>
+            <li><a href="javascript:void(0);" id="contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+   
+    <div class="cloud" id="aboutCloud"> 
+ 
+  <div class="text">
+
+  <h1>About Me</h1>
+ 
+<p class = "ani-text">I hold a BSc Computer Science degree from University of East London and have a deep passion for programming languages and new technologies. I am fast learner with a strong ability to stay updated with latest industry knowledge. Currently, I am enrolled in 12-week intensive Bootcamp focused on Software Development skills, where I am working on several projects to develop an online GitHub portfolio.</p>
+
+ <p class="ani-text"> My goal is to consolidate my skills and gain hands-on experience as a junior Developer. I am now seeking a Junior Developer role to build my existing knowledge and contribute effectively to dynamic team.   
+  </p>
+  <button class="close" id="close">X</button>
+  </div>
+  </div>
+</div>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <div class="animated">
+            Hi, My name is <span class="purple">Hassan</span>
+            <div>and I am a passionate Junior</div>
+            <div><span class = "purple">Web Developer</span></div>
+            <span class="cursor"></span>
+          </div>
+          
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn" onclick="downloadResume()">Download Resume</button>
+            <button class="btn"onclick="VisitGitHub()">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightSection"><img src="/front-logox/Pic1.png"></div>
+      </section>
+<hr>
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="/front-logox/html.png" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-Present)
+          </div>
+          <div class="vertical-desc">
+            "I'm gaining a solid understanding of HTML to structure web content effectively. This involves creating user-friendly layouts and ensuring accessibility across different devices."
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="/front-logox/js.png" alt="">
+          <div class="vertical-title">
+            JavaScript (2024-Present)
+          </div>
+          <div class="vertical-desc">
+            "I'm learning JavaScript to bring interactivity to web pages, manipulating elements dynamically and building complex functionality for responsive user experiences."
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="/front-logox/py.png" alt="">
+          <div class="vertical-title">
+            Python (2024-Present)
+          </div>
+          <div class="vertical-desc">
+            "I'm exploring Python, focusing on its versatility for web development, data analysis, and automation, leveraging its simple syntax to solve complex problems efficiently."
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="/front-logox/mysql.png" alt="">
+          <div class="vertical-title">
+            MY SQL (2024-Present)
+          </div>
+          <div class="vertical-desc">
+            I'm working with MySQL to manage and query relational databases, enhancing my ability to store, organize, and retrieve data for web applications.
+          </div>
+        </div>  
+      </section>
+    </main>
+
+
+  <h3 class="page-title" id="Project-f">Projects</h3>
+    
+    <div class="rectangular-project">
+
+      <div class="project-card">
+        <img src="projectslogos/Weather.png" alt="Weather App" class="project-logo">
+<p>Weather APP</p>
+<a href="Projects/Weather APP/index.html" class="project-link" target="_blank"></a>
+      </div>
+
+      <div class="project-card">
+        <img src="projectslogos/clock.PNG" alt="Clock App" class="project-logo">
+        <p>Clock</p>
+        <a href="Projects/Amazing analog and digital clock/index.html" class="project-link" target="_blank"></a>
+        
+              </div>
+
+              <div class="project-card">
+                <img src="projectslogos/Atm_simulator.PNG" alt="ATM Simulator" class="project-logo">
+                <p>Stop Watch</p>
+                <a href="Projects/Cash Machine/index.html" class="project-link" target="_blank"></a>
+                
+                      </div>
+
+                      <div class="project-card">
+                        <img src="projectslogos/pig_game.PNG" alt="PIG game" class="project-logo">
+                        <p>Pig game</p>
+                        <a href="Projects/07-Pig-Game/starter/index.html" class="project-link" target="_blank"></a>
+                        
+                              </div>
+
+                              <div class="project-card">
+                                <img src="projectslogos/Stop_watch.PNG" alt="stop watch" class="project-logo">
+                                <p>ATM Simulator</p>
+                                <a href="Projects/Stop watch/index.html" class="project-link" target="_blank"></a>
+                                
+                                      </div>
+    </div>
+    <section class="contact" id="contact-f">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Send your queries</h3>
+            <form action="https://formspree.io/f/xanwrjkg"
+            method="POST">
+
+              <div class="form-group">
+                <input type="text" class="name" name="name" placeholder="your name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="email" name="email" placeholder="your email">
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="message" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fas fa-phone"></i>+44 7753469564</p>
+            <p><i class="fas fa-envelope"></i>bhattihassan@live.com</p>
+            <p><i class="fas fa-map-marker-alt"></i>TowerHamlets, London</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="up" id="up">
+    <img src="/front-logox/up.png">
+  </div>
+
+
+
+    <footer>
+
+<div class="footer-rights">
+ Copyright &#169;www.hassansportfolio.com | All rights reserved
+</div>
+    </footer>
+
+
+  
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>

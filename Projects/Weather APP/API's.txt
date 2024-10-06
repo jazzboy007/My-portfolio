@@ -1,0 +1,5 @@
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+acb4f9a40f2dbcba3fdaeebefa937786
+
+https://api.openweathermap.org/data/2.5/weather?q=melbourne&appid=acb4f9a40f2dbcba3fdaeebefa937786&units=metric

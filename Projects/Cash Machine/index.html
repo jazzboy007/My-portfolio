@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="atm">
+    <div class="atm-container">
       <h1>ATM Simulator</h1>
-
-      <div id="screen">
-        <p id="message">welcome! Please choose an action:</p>
+      <div id="login-screen">
+        <p>Enter Pin:</p>
+        <input type="password" id="pin-input" maxlength="4" />
+        <button id="login-btn">Login</button>
+        <p id="login-error" class="error"></p>
       </div>
 
-      <div class="action">
-        <button onclick="checkBalance()">Check Balance</button>
-        <button onclick="deposit()">Deposit</button>
-        <button onclick="withdraw()">Withdraw</button>
-      </div>
+      <div id="atm-screen" style="display: none">
+        <p id="welcome-message"></p>
+        <button id="check-balance-btn">Check Balance</button>
+        <button id="deposit-btn">Deposit Money</button>
+        <button id="withdraw-btn">Withdraw Money</button>
+        <button id="change-pin-btn">Change Pin</button>
+        <button id="transaction-history-btn">Transaction History</button>
+        <button id="logout-btn">Logout</button>
 
-      <div id="inputSection">
-        <input type="number" id="amount" placeholder="Enter amount" />
+        <div id="action-screen">
+          <!--Dynamic action go there-->
+        </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

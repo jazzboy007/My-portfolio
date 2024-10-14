@@ -40,3 +40,10 @@ document.getElementById("close").addEventListener("click", function () {
 function downloadResume() {
   window.location.href = "Resume/My_resume.doc";
 }
+
+function visitGitHub() {
+  window.open(
+    "https://github.com/jazzboy007/My-portfolio/tree/main/Projects",
+    "_blank"
+  );
+}

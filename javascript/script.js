@@ -38,5 +38,5 @@ document.getElementById("close").addEventListener("click", function () {
 // Script for openning links
 
 function downloadResume() {
-  window.location.href = "/Resume/My_resume.doc";
+  window.location.href = "Resume/My_resume.doc";
 }

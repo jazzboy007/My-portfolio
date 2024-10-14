@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       pin: "1234",
       balance: 1000,
       dailyLimit: 500,
-      withdrawnToday: 0,
+      withDrawnToday: 0,
       transactionHistory: [],
     },
     {

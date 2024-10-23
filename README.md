@@ -1,7 +1,7 @@
 # Hi there, I'm Hassan 👋
 
 ## About Me
-I'm a software developer passionate about learning new programming languages and working on various tech projects. Currently focusing on JavaScript, Python, and web development.
+I hold a BSc Computer Science degree from University of East London and have a deep passion for programming languages and new technologies. I am fast learner with a strong ability to stay updated with latest industry knowledge. Currently, I am enrolled in 12-week intensive Bootcamp focused on Software Development skills, where I am working on several projects to develop an online GitHub portfolio. My goal is to consolidate my skills and gain hands-on experience as a junior Developer. I am now seeking a Junior Developer. I am now seeking a Junior Developer role to build my existing knowledge and contribute effectively to dynamic team.   
 
 - 🌱 I’m currently improving my skills in JavaScript and Python
 - 👨‍💻 I love working on web projects like ATM Simulators, Clock designs, and more

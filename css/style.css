@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -175,6 +180,8 @@ footer .footer-rights {
 }
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
 }
